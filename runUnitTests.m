@@ -31,7 +31,7 @@ end
 % Default assumes that you cloned this module in repo_root/lib and that you have a repo_root/tests folder
 charPathToThisDir = fileparts(mfilename);
 
-charTestRootFolderPath = fullfile('..', 'tests');
+charTestRootFolderPath = fullfile('..', '..', 'tests');
 assert(isfolder(charTestRootFolderPath), 'Assumption on default project structure does not hold. Please specify "charTestRootFolderPath" manually.')
 
 % Test execution calls

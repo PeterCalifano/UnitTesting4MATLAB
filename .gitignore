@@ -1,3 +1,10 @@
+# MATLAB ignores
+**/*.asv
+**/*.mex*
+**/slprj/*
+
+
+# CMake template ignores
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
