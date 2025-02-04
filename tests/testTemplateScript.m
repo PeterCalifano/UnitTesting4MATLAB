@@ -9,6 +9,10 @@
 % To run all tests in a folder, use command: test_results = runtests();
 % Note that each test will run even if any other fails.
 
+% Add paths for tests (default location)
+addpath(genpath("../../matlab/")) % Points to matlab src folder for current repo
+addpath(genpath("../../lib/UnitTesting4MATLAB/utils"))
+
 % Shared variables section (test setup)
 test_var = 10;
 
